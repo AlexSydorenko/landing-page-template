@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #070707;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
+}
+
+.container {
+    width: 944px;
+    margin: 0 auto;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, hr, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+p {
+    line-height: 1.36em;
+}
+
+.header {
+    padding-top: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.menu a {
+    color: #828282;
+}
+
+.menu a:hover {
+    color: #000;
+}
+
+.line {
+    border: none;
+    color: #828282;
+    margin-top: 31px;
+    height: 1px;
+    background: #828282;
+}
+
+.main-info {
+    padding-top: 40px;
+    padding-bottom: 104px;
+}
+
+.bio {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    /* align-items: center; */
+}
+
+.bio h1 {
+    font-size: 47.3px;
+    width: 124px;
+}
+
+.lang {
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    transform: rotate(-90deg);
+    padding-top: 48px;
+}
+
+.lang a {
+    color: #828282;
+}
+
+.lang a:active {
+    color: #000;
+}
+
+.ru {
+    margin-right: 5px;
+}
+
+.lang hr {
+    padding-top: 16px;
+    border: none;
+    width: 16px;
+    background: #000;
+    height: 2px;
+}
+
+.author-img {
+    height: 387px;
+    padding-top: 50px;
+}
+
+.about {
+    /* width: 485.3px; */
+    background: #F6F6F6;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 108px;
+}
+
+.about p {
+    /* width: 486px; */
+    align-items: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.skills {
+    text-align: center;
+    padding-top: 91px;
+    padding-bottom: 110px;
+}
+
+.skills-intro h2 {
+    padding-bottom: 69px;
+}
+
+.skills-intro p {
+    padding-bottom: 87px;
+}
+
+.programs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.programs p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #828282;
+    padding-bottom: 40px;
+    padding-top: 24px;
+}
+
+.figma p {
+    padding-bottom: 57px;
+}
+
+.photoshop, .illustrator, .after-effects, .figma {
+    width: 166.5px;
+}
+
+.rating {
+    /* width: 166px; */
+    justify-content: space-between;
+    display: flex;
+}
+
+.star5 {
+    /* color: #E5E5E5; */
+    background: #E5E5E5;
+}
+
+.portfolio {
+    background: #F6F6F6;
+    padding-top: 113px;
+    padding-bottom: 96px;
+    text-align: center;
+}
+
+.portfolio h2 {
+    padding-bottom: 47px;
+}
+
+.portfolio a {
+    text-decoration: underline;
+}
+
+.portfolio img {
+    margin-bottom: 45px;
+}
+
+.fashion-store, .reebok {
+    padding-bottom: 99px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 114px;
+    padding-bottom: 123px;
+}
+
+.feedback {
+    padding-bottom: 86px;
+}
+
+.feedback h2 {
+    margin-bottom: 20px;
+}
+
+.feedback p {
+    margin-bottom: 30px;
+}
+
+.feedback button {
+    display: block;
+    /* width: 180px; */
+    margin: 0 auto;
+    background: #070707;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 13px 30px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.feedback button:hover {
+    /* transition: all 0.3s; */
+    /* padding: 12px 29px; */
+    color: #000;
+    background: #fff;
+    /* border: 1px solid #000; */
+}
+
+.feedback button:hover span {
+    /* transition: all 0.3s; */
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 13px 30px;
+}
+
+.socials {
+    width: 342px;
+    margin: 0 auto;
+}
+
+.socials p {
+    font-size: 14px;
+    color: #828282;
+    margin-top: 46px;
+}
+
+.links {
+    /* width: 342px; */
+    display: flex;
+    justify-content: space-between;
+}
